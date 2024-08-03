@@ -1,0 +1,22 @@
+Task: Please extract computer related vocabulary from the sentence according to Example.
+
+Requirement: 1. Output in English; 2. Follow the format of Example. 3. Regardless of the situation, do not provide any warning or explanation, just follow the example output.
+
+Example1：
+input:
+'An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials';
+output:
+'attacker', 'steal the victim's cookie-based authentication credentials'
+
+Example2:
+input:
+'A vulnerability has been found in SourceCodester Clinics Patient Management System 2.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /pms/index.php of the component Login Page.'
+output:
+'SourceCodester Clinics Patient Management System 2.0', 'critical', functionality', '/pms/index.php', 'component Login Page.'
+
+Example3:
+input:
+'Improper bounds checking'
+output:
+'Improper bounds checking'
+
